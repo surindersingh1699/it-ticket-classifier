@@ -39,7 +39,6 @@ Current capabilities:
 ├── main.py
 ├── models
 └── services
-
 ```
 
 
