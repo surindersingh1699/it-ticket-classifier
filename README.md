@@ -27,9 +27,32 @@ Current capabilities:
 - Dev Tools: Git, Github, Docker, AWS 
 
 ## Project Structure
+```
+    app
+├── __pycache__
+│   └── main.cpython-313.pyc
+├── api
+│   ├── __pycache__
+│   │   └── health.cpython-313.pyc
+│   └── health.py
+├── core
+├── main.py
+├── models
+└── services
 
+```
+
+
+## API Endpoints
+
+### Health Check
+GET /api/v1/health
 
 ## Getting Started
+
+### Running Locally
+`uvicorn app.main:app --reload`
+
 
 ### Prerequisites
     - Python 3.9+
